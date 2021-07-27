@@ -44,7 +44,8 @@ public class PlayerItemSlot : MonoBehaviour, IClickable
     {
         Debug.Log("sadboi");
         inventoryParent.gameObject.GetComponent<EquipmentController>().Equip(Item);
-        inventoryParent.gameObject.GetComponentInChildren<CharacterSetupV2>().ReDressSprite(Item.equipmentSettings);
+        //inventoryParent.gameObject.GetComponentInChildren<CharacterSetupV2>().ReDressSprite(Item.equipmentSettings);
+        inventoryParent.gameObject.GetComponentInChildren<CharacterSetupV2>().Change(Item);
         Debug.Log("sadboi");
     }
 

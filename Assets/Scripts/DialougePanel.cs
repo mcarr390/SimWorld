@@ -27,6 +27,6 @@ public class DialougePanel : MonoBehaviour
     }
     void No()
     {
-
+        gameObject.SetActive(false);
     }
 }

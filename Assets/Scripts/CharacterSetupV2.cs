@@ -155,6 +155,7 @@ public class CharacterSetupV2 : MonoBehaviour
                 leftLowerLegEquipmentColor = GetSpriteRendererBySlotName(cachedDownSpriteRenderers, "__left lower leg slot").color;
                 leftFootEquipment = GetSpriteRendererBySlotName(cachedDownSpriteRenderers, "__left foot slot").sprite;
                 leftFootEquipmentColor = GetSpriteRendererBySlotName(cachedDownSpriteRenderers, "__left foot slot").color;
+                Debug.Log("Overwritten by awake");
             }
         }
     }
@@ -174,59 +175,105 @@ public class CharacterSetupV2 : MonoBehaviour
         eyeColor = GetSpriteRendererBySlotName(cachedDownSpriteRenderers, "eye color").color;
 
         hairColor = GetSpriteRendererBySlotName(cachedDownSpriteRenderers, "__hair slot").color;
+
         hair = GetSpriteRendererBySlotName(cachedDownSpriteRenderers, "__hair slot").sprite;
         facialHair = GetSpriteRendererBySlotName(cachedDownSpriteRenderers, "__facial hair slot").sprite;
 
-        headwear = GetSpriteRendererBySlotName(cachedDownSpriteRenderers, "__headwear slot").sprite;
-        headwearColor = GetSpriteRendererBySlotName(cachedDownSpriteRenderers, "__headwear slot").color;
+        headwear = equipmentSettings.headwear;
+        headwearColor = equipmentSettings.headwearColor;
 
-        rightShoulder = GetSpriteRendererBySlotName(cachedDownSpriteRenderers, "__right shoulder slot").sprite;
-        rightShoulderColor = GetSpriteRendererBySlotName(cachedDownSpriteRenderers, "__right shoulder slot").color;
-        rightUpperArmEquipment = GetSpriteRendererBySlotName(cachedDownSpriteRenderers, "__right upper arm slot").sprite;
-        rightUpperArmEquipmentColor = GetSpriteRendererBySlotName(cachedDownSpriteRenderers, "__right upper arm slot").color;
-        rightLowerArmEquipment = GetSpriteRendererBySlotName(cachedDownSpriteRenderers, "__right lower arm slot").sprite;
-        rightLowerArmEquipmentColor = GetSpriteRendererBySlotName(cachedDownSpriteRenderers, "__right lower arm slot").color;
-        rightHandEquipment = GetSpriteRendererBySlotName(cachedDownSpriteRenderers, "__right hand slot").sprite;
-        rightHandEquipmentColor = GetSpriteRendererBySlotName(cachedDownSpriteRenderers, "__right hand slot").color;
+        rightShoulder = equipmentSettings.rightShoulder;
+        //rightShoulderColor = equipmentSettings.rightShoulderColor;
+        rightUpperArmEquipment = equipmentSettings.rightUpperArmEquipment;
+        rightUpperArmEquipmentColor = equipmentSettings.rightUpperArmEquipmentColor;
 
-        leftShoulder = GetSpriteRendererBySlotName(cachedDownSpriteRenderers, "__left shoulder slot").sprite;
-        leftShoulderColor = GetSpriteRendererBySlotName(cachedDownSpriteRenderers, "__left shoulder slot").color;
-        leftUpperArmEquipment = GetSpriteRendererBySlotName(cachedDownSpriteRenderers, "__left upper arm slot").sprite;
-        leftUpperArmEquipmentColor = GetSpriteRendererBySlotName(cachedDownSpriteRenderers, "__left upper arm slot").color;
-        leftLowerArmEquipment = GetSpriteRendererBySlotName(cachedDownSpriteRenderers, "__left lower arm slot").sprite;
-        leftLowerArmEquipmentColor = GetSpriteRendererBySlotName(cachedDownSpriteRenderers, "__left lower arm slot").color;
-        leftHandEquipment = GetSpriteRendererBySlotName(cachedDownSpriteRenderers, "__left hand slot").sprite;
-        leftHandEquipmentColor = GetSpriteRendererBySlotName(cachedDownSpriteRenderers, "__left hand slot").color;
+        rightLowerArmEquipment = equipmentSettings.rightLowerArmEquipment;
+        rightLowerArmEquipmentColor = equipmentSettings.rightLowerArmEquipmentColor;
 
-        if (equipmentSettings.chestEquipment != null) { chestEquipment = equipmentSettings.chestEquipment; } else { chestEquipment = GetSpriteRendererBySlotName(cachedDownSpriteRenderers, "__chest slot").sprite; }
-        if (equipmentSettings.bodyEquipment != null) { bodyEquipment = equipmentSettings.bodyEquipment; } else { bodyEquipment = GetSpriteRendererBySlotName(cachedDownSpriteRenderers, "__body slot").sprite; }
+        rightHandEquipment = equipmentSettings.rightHandEquipment;
+        rightHandEquipmentColor = equipmentSettings.rightHandEquipmentColor;
 
+        leftShoulder = equipmentSettings.leftShoulder;
+        //leftShoulderColor = equipmentSettings.leftShoulderColor;
+        leftUpperArmEquipment = equipmentSettings.leftUpperArmEquipment;
+        leftUpperArmEquipmentColor = equipmentSettings.leftUpperArmEquipmentColor;
+        leftLowerArmEquipment = equipmentSettings.leftLowerArmEquipment;
+        leftLowerArmEquipmentColor = equipmentSettings.leftLowerArmEquipmentColor;
+        leftHandEquipment = equipmentSettings.leftHandEquipment;
+        leftHandEquipmentColor = equipmentSettings.leftHandEquipmentColor;
+
+        chestEquipment = equipmentSettings.chestEquipment;
+        //chestEquipmentColor = equipmentSettings.chestEquipmentColor;
+        bodyEquipment = equipmentSettings.bodyEquipment;
+        //bodyEquipmentColor = equipmentSettings.bodyEquipmentColor;
         
-        chestEquipmentColor = GetSpriteRendererBySlotName(cachedDownSpriteRenderers, "__chest slot").color;
-        //bodyEquipment = GetSpriteRendererBySlotName(cachedDownSpriteRenderers, "__body slot").sprite;
-        bodyEquipmentColor = GetSpriteRendererBySlotName(cachedDownSpriteRenderers, "__body slot").color;
-        belt = GetSpriteRendererBySlotName(cachedDownSpriteRenderers, "__belt slot").sprite;
-        beltColor = GetSpriteRendererBySlotName(cachedDownSpriteRenderers, "__belt slot").color;
-        hipEquipment = GetSpriteRendererBySlotName(cachedDownSpriteRenderers, "__hip slot").sprite;
-        hipEquipmentColor = GetSpriteRendererBySlotName(cachedDownSpriteRenderers, "__hip slot").color;
+        
+        belt = equipmentSettings.belt;
+        beltColor = equipmentSettings.beltColor;
 
-        rightUpperLegEquipment = GetSpriteRendererBySlotName(cachedDownSpriteRenderers, "__right upper leg slot").sprite;
-        rightUpperLegEquipmentColor = GetSpriteRendererBySlotName(cachedDownSpriteRenderers, "__right upper leg slot").color;
-        rightLowerLegEquipment = GetSpriteRendererBySlotName(cachedDownSpriteRenderers, "__right lower leg slot").sprite;
-        rightLowerLegEquipmentColor = GetSpriteRendererBySlotName(cachedDownSpriteRenderers, "__right lower leg slot").color;
-        rightFootEquipment = GetSpriteRendererBySlotName(cachedDownSpriteRenderers, "__right foot slot").sprite;
-        rightFootEquipmentColor = GetSpriteRendererBySlotName(cachedDownSpriteRenderers, "__right foot slot").color;
+        hipEquipment = equipmentSettings.hipEquipment;
+        hipEquipmentColor = equipmentSettings.hipEquipmentColor;
+        rightUpperLegEquipment = equipmentSettings.rightUpperLegEquipment; 
+        rightUpperLegEquipment = equipmentSettings.rightUpperLegEquipment;
+        rightUpperLegEquipmentColor = equipmentSettings.rightUpperLegEquipmentColor;
+        rightLowerLegEquipment = equipmentSettings.rightLowerLegEquipment;
+        rightLowerLegEquipmentColor = equipmentSettings.rightLowerLegEquipmentColor;
+        rightFootEquipment = equipmentSettings.rightFootEquipment;
+        rightFootEquipmentColor = equipmentSettings.rightFootEquipmentColor;
 
-        leftUpperLegEquipment = GetSpriteRendererBySlotName(cachedDownSpriteRenderers, "__left upper leg slot").sprite;
-        leftUpperLegEquipmentColor = GetSpriteRendererBySlotName(cachedDownSpriteRenderers, "__left upper leg slot").color;
-        leftLowerLegEquipment = GetSpriteRendererBySlotName(cachedDownSpriteRenderers, "__left lower leg slot").sprite;
-        leftLowerLegEquipmentColor = GetSpriteRendererBySlotName(cachedDownSpriteRenderers, "__left lower leg slot").color;
-        leftFootEquipment = GetSpriteRendererBySlotName(cachedDownSpriteRenderers, "__left foot slot").sprite;
-        leftFootEquipmentColor = GetSpriteRendererBySlotName(cachedDownSpriteRenderers, "__left foot slot").color;
+        leftUpperLegEquipment = equipmentSettings.leftUpperLegEquipment;
+        leftUpperLegEquipmentColor = equipmentSettings.leftUpperLegEquipmentColor;
+        leftLowerLegEquipment = equipmentSettings.leftLowerLegEquipment;
+        leftLowerLegEquipmentColor = equipmentSettings.leftLowerLegEquipmentColor;
+        leftFootEquipment = equipmentSettings.leftFootEquipment;
+        leftFootEquipmentColor = equipmentSettings.leftFootEquipmentColor;
 
         UpdateSprites(false);
         Debug.Log("Bottom of override");
     }
+
+    public void Change(Item item)
+    {
+        if(item.equipmentSettings.equipmentType == EquipmentType.Head)
+        {
+            headwear = item.equipmentSettings.headwear;
+            headwearColor = item.equipmentSettings.headwearColor;
+            UpdateSprites(false);
+        }
+        if (item.equipmentSettings.equipmentType == EquipmentType.Chest)
+        {
+            chestEquipment = item.equipmentSettings.chestEquipment;
+            //chestEquipmentColor = item.equipmentSettings.chestEquipmentColor;
+            bodyEquipment = item.equipmentSettings.bodyEquipment;
+            //bodyEquipmentColor = item.equipmentSettings.bodyEquipmentColor;
+            UpdateSprites(false);
+        }
+        if (item.equipmentSettings.equipmentType == EquipmentType.Pants)
+        {
+            belt = item.equipmentSettings.belt;
+            //beltColor = item.equipmentSettings.beltColor;
+
+            hipEquipment = item.equipmentSettings.hipEquipment;
+            //hipEquipmentColor = item.equipmentSettings.hipEquipmentColor;
+            rightUpperLegEquipment = item.equipmentSettings.rightUpperLegEquipment;
+           
+            //rightUpperLegEquipmentColor = item.equipmentSettings.rightUpperLegEquipmentColor;
+            rightLowerLegEquipment = item.equipmentSettings.rightLowerLegEquipment;
+            //rightLowerLegEquipmentColor = item.equipmentSettings.rightLowerLegEquipmentColor;
+            leftUpperLegEquipment = item.equipmentSettings.leftUpperLegEquipment;
+            //leftUpperLegEquipmentColor = item.equipmentSettings.leftUpperLegEquipmentColor;
+            leftLowerLegEquipment = item.equipmentSettings.leftLowerLegEquipment;
+            //leftLowerLegEquipmentColor = item.equipmentSettings.leftLowerLegEquipmentColor;
+            UpdateSprites(false);
+        }
+        if (item.equipmentSettings.equipmentType == EquipmentType.Feet)
+        {
+            chestEquipment = item.equipmentSettings.chestEquipment;
+            bodyEquipment = item.equipmentSettings.bodyEquipment;
+            UpdateSprites(false);
+        }
+    }
+    
 
     void Update()
     {

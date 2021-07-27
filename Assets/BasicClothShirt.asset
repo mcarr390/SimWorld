@@ -15,41 +15,42 @@ MonoBehaviour:
   equipmentName: Basic Cloth Shirt
   icon: {fileID: 21300000, guid: c903a2ad1ba953f42a0c2574cbc91288, type: 3}
   value: 75
-  headwear: {fileID: 0}
-  headwearColor: {r: 0, g: 0, b: 0, a: 0}
-  leftShoulder: {fileID: 0}
-  leftShoulderColor: {r: 0, g: 0, b: 0, a: 0}
-  rightShoulder: {fileID: 0}
-  rightShoulderColor: {r: 0, g: 0, b: 0, a: 0}
-  leftUpperArmEquipment: {fileID: 0}
-  leftUpperArmEquipmentColor: {r: 0, g: 0, b: 0, a: 0}
-  leftLowerArmEquipment: {fileID: 0}
-  leftLowerArmEquipmentColor: {r: 0, g: 0, b: 0, a: 0}
-  leftHandEquipment: {fileID: 0}
+  equipmentType: 1
+  headwear: {fileID: 21300908, guid: 7f55fd39ae3f7b7449fa3d2c516cc700, type: 3}
+  headwearColor: {r: 1, g: 1, b: 1, a: 1}
+  leftShoulder: {fileID: 21301006, guid: 7f55fd39ae3f7b7449fa3d2c516cc700, type: 3}
+  leftShoulderColor: {r: 1, g: 1, b: 1, a: 0}
+  rightShoulder: {fileID: 21301008, guid: 7f55fd39ae3f7b7449fa3d2c516cc700, type: 3}
+  rightShoulderColor: {r: 1, g: 1, b: 1, a: 0}
+  leftUpperArmEquipment: {fileID: 21300342, guid: 7f55fd39ae3f7b7449fa3d2c516cc700, type: 3}
+  leftUpperArmEquipmentColor: {r: 1, g: 1, b: 1, a: 0}
+  leftLowerArmEquipment: {fileID: 21300008, guid: 7f55fd39ae3f7b7449fa3d2c516cc700, type: 3}
+  leftLowerArmEquipmentColor: {r: 1, g: 1, b: 1, a: 0}
+  leftHandEquipment: {fileID: 21300976, guid: 7f55fd39ae3f7b7449fa3d2c516cc700, type: 3}
   leftHandEquipmentColor: {r: 0, g: 0, b: 0, a: 0}
-  rightUpperArmEquipment: {fileID: 0}
-  rightUpperArmEquipmentColor: {r: 0, g: 0, b: 0, a: 0}
-  rightLowerArmEquipment: {fileID: 0}
-  rightLowerArmEquipmentColor: {r: 0, g: 0, b: 0, a: 0}
-  rightHandEquipment: {fileID: 0}
+  rightUpperArmEquipment: {fileID: 21300346, guid: 7f55fd39ae3f7b7449fa3d2c516cc700, type: 3}
+  rightUpperArmEquipmentColor: {r: 1, g: 1, b: 1, a: 0}
+  rightLowerArmEquipment: {fileID: 21300032, guid: 7f55fd39ae3f7b7449fa3d2c516cc700, type: 3}
+  rightLowerArmEquipmentColor: {r: 1, g: 1, b: 1, a: 0}
+  rightHandEquipment: {fileID: 21300978, guid: 7f55fd39ae3f7b7449fa3d2c516cc700, type: 3}
   rightHandEquipmentColor: {r: 0, g: 0, b: 0, a: 0}
   chestEquipment: {fileID: 21300354, guid: 7f55fd39ae3f7b7449fa3d2c516cc700, type: 3}
-  chestEquipmentColor: {r: 0.9921569, g: 0.7254902, b: 0.7254902, a: 0}
-  bodyEquipment: {fileID: 21300350, guid: 7f55fd39ae3f7b7449fa3d2c516cc700, type: 3}
-  bodyEquipmentColor: {r: 0.990566, g: 0.7242346, b: 0.7242346, a: 0}
-  belt: {fileID: 0}
+  chestEquipmentColor: {r: 0, g: 0, b: 0, a: 0}
+  bodyEquipment: {fileID: 21300360, guid: 7f55fd39ae3f7b7449fa3d2c516cc700, type: 3}
+  bodyEquipmentColor: {r: 0, g: 0, b: 0, a: 0}
+  belt: {fileID: 21300230, guid: 7f55fd39ae3f7b7449fa3d2c516cc700, type: 3}
   beltColor: {r: 0.49803925, g: 0.49803925, b: 0.49803925, a: 0}
-  hipEquipment: {fileID: 0}
+  hipEquipment: {fileID: 21300290, guid: 7f55fd39ae3f7b7449fa3d2c516cc700, type: 3}
   hipEquipmentColor: {r: 0, g: 0, b: 0, a: 0}
-  leftUpperLegEquipment: {fileID: 0}
-  leftUpperLegEquipmentColor: {r: 0, g: 0, b: 0, a: 0}
-  leftLowerLegEquipment: {fileID: 0}
-  leftLowerLegEquipmentColor: {r: 0, g: 0, b: 0, a: 0}
-  leftFootEquipment: {fileID: 0}
-  leftFootEquipmentColor: {r: 0, g: 0, b: 0, a: 0}
-  rightUpperLegEquipment: {fileID: 0}
-  rightUpperLegEquipmentColor: {r: 0, g: 0, b: 0, a: 0}
-  rightLowerLegEquipment: {fileID: 0}
-  rightLowerLegEquipmentColor: {r: 0, g: 0, b: 0, a: 0}
-  rightFootEquipment: {fileID: 0}
+  leftUpperLegEquipment: {fileID: 21300278, guid: 7f55fd39ae3f7b7449fa3d2c516cc700, type: 3}
+  leftUpperLegEquipmentColor: {r: 0.30980393, g: 0.15294118, b: 0.15294118, a: 0}
+  leftLowerLegEquipment: {fileID: 21300382, guid: 7f55fd39ae3f7b7449fa3d2c516cc700, type: 3}
+  leftLowerLegEquipmentColor: {r: 1, g: 1, b: 1, a: 0}
+  leftFootEquipment: {fileID: 21300374, guid: 7f55fd39ae3f7b7449fa3d2c516cc700, type: 3}
+  leftFootEquipmentColor: {r: 1, g: 1, b: 1, a: 0}
+  rightUpperLegEquipment: {fileID: 21300286, guid: 7f55fd39ae3f7b7449fa3d2c516cc700, type: 3}
+  rightUpperLegEquipmentColor: {r: 0.30980393, g: 0.15294118, b: 0.15294118, a: 0}
+  rightLowerLegEquipment: {fileID: 21300390, guid: 7f55fd39ae3f7b7449fa3d2c516cc700, type: 3}
+  rightLowerLegEquipmentColor: {r: 1, g: 1, b: 1, a: 0}
+  rightFootEquipment: {fileID: 21300378, guid: 7f55fd39ae3f7b7449fa3d2c516cc700, type: 3}
   rightFootEquipmentColor: {r: 0, g: 0, b: 0, a: 0}

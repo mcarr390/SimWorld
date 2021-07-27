@@ -8,6 +8,9 @@ public class CharacterInteraction : MonoBehaviour
     [SerializeField]
     private float rayOffset;
     public GameObject playersInventory;
+    public GameObject dialougeTextPanel;
+    public GameObject shop;
+
 
     private void Start()
     {
@@ -30,6 +33,13 @@ public class CharacterInteraction : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.I))
         {
             playersInventory.SetActive(!playersInventory.activeSelf);
+        }
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            playersInventory.SetActive(false);
+            dialougeTextPanel.SetActive(false);
+            shop.SetActive(false);
+
         }
 
     }

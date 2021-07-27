@@ -14,7 +14,8 @@ public class EquipmentController : MonoBehaviour
         var slots = equipmentSlotParent.GetComponentsInChildren<PlayerItemSlot>();
         equipmentSlots.Add(EquipmentType.Head, slots[0]);
         equipmentSlots.Add(EquipmentType.Chest, slots[1]);
-        equipmentSlots.Add(EquipmentType.Feet, slots[2]);
+        equipmentSlots.Add(EquipmentType.Pants, slots[2]);
+        equipmentSlots.Add(EquipmentType.Feet, slots[3]);
 
     }
     public void Equip(Item itemToEquip)
@@ -23,7 +24,7 @@ public class EquipmentController : MonoBehaviour
         itemSlot.item = itemToEquip;
         itemSlot.itemImage.sprite = itemToEquip.equipmentSettings.icon;
 
-        player.GetComponent<CharacterSetupV2>().ReDressSprite(itemToEquip.equipmentSettings);
+        player.GetComponent<CharacterSetupV2>().Change(itemToEquip);
     }
 
 }
