@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02055c48a53466843aec8b45ec4e2bb4, type: 3}
+  m_Name: BasicClothShirt
+  m_EditorClassIdentifier: 
+  equipmentName: Basic Cloth Shirt
+  icon: {fileID: 21300000, guid: c903a2ad1ba953f42a0c2574cbc91288, type: 3}
+  value: 75
+  headwear: {fileID: 0}
+  headwearColor: {r: 0, g: 0, b: 0, a: 0}
+  leftShoulder: {fileID: 0}
+  leftShoulderColor: {r: 0, g: 0, b: 0, a: 0}
+  rightShoulder: {fileID: 0}
+  rightShoulderColor: {r: 0, g: 0, b: 0, a: 0}
+  leftUpperArmEquipment: {fileID: 0}
+  leftUpperArmEquipmentColor: {r: 0, g: 0, b: 0, a: 0}
+  leftLowerArmEquipment: {fileID: 0}
+  leftLowerArmEquipmentColor: {r: 0, g: 0, b: 0, a: 0}
+  leftHandEquipment: {fileID: 0}
+  leftHandEquipmentColor: {r: 0, g: 0, b: 0, a: 0}
+  rightUpperArmEquipment: {fileID: 0}
+  rightUpperArmEquipmentColor: {r: 0, g: 0, b: 0, a: 0}
+  rightLowerArmEquipment: {fileID: 0}
+  rightLowerArmEquipmentColor: {r: 0, g: 0, b: 0, a: 0}
+  rightHandEquipment: {fileID: 0}
+  rightHandEquipmentColor: {r: 0, g: 0, b: 0, a: 0}
+  chestEquipment: {fileID: 21300354, guid: 7f55fd39ae3f7b7449fa3d2c516cc700, type: 3}
+  chestEquipmentColor: {r: 0.9921569, g: 0.7254902, b: 0.7254902, a: 0}
+  bodyEquipment: {fileID: 21300350, guid: 7f55fd39ae3f7b7449fa3d2c516cc700, type: 3}
+  bodyEquipmentColor: {r: 0.990566, g: 0.7242346, b: 0.7242346, a: 0}
+  belt: {fileID: 0}
+  beltColor: {r: 0.49803925, g: 0.49803925, b: 0.49803925, a: 0}
+  hipEquipment: {fileID: 0}
+  hipEquipmentColor: {r: 0, g: 0, b: 0, a: 0}
+  leftUpperLegEquipment: {fileID: 0}
+  leftUpperLegEquipmentColor: {r: 0, g: 0, b: 0, a: 0}
+  leftLowerLegEquipment: {fileID: 0}
+  leftLowerLegEquipmentColor: {r: 0, g: 0, b: 0, a: 0}
+  leftFootEquipment: {fileID: 0}
+  leftFootEquipmentColor: {r: 0, g: 0, b: 0, a: 0}
+  rightUpperLegEquipment: {fileID: 0}
+  rightUpperLegEquipmentColor: {r: 0, g: 0, b: 0, a: 0}
+  rightLowerLegEquipment: {fileID: 0}
+  rightLowerLegEquipmentColor: {r: 0, g: 0, b: 0, a: 0}
+  rightFootEquipment: {fileID: 0}
+  rightFootEquipmentColor: {r: 0, g: 0, b: 0, a: 0}
